@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Personal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Rajdhani:wght@300&family=Red+Hat+Text:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Blog Personal</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#articulos">Artículos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="inicio">
+            <h2>Bienvenido a Mi Blog</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam consequatur aliquid debitis inventore blanditiis animi veniam culpa, qui quasi quod laborum nostrum maxime ad quo eum expedita necessitatibus adipisci porro!</p>
+        </section>
+
+        <section class="articulos">
+            <h2>Artículos</h2>
+            <div>
+                <ul class="lista">
+                    <li>Articulo 1</li>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni id natus harum nemo voluptates quidem eaque accusantium eos aliquid illum!</p>
+                    <li>Articulo 2</li>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni id natus harum nemo voluptates quidem eaque accusantium eos aliquid illum!</p>
+                    <li>Articulo 3</li>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni id natus harum nemo voluptates quidem eaque accusantium eos aliquid illum!</p>
+                    <li>Articulo 4</li>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni id natus harum nemo voluptates quidem eaque accusantium eos aliquid illum!</p>
+                    <li>Articulo 5</li>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni id natus harum nemo voluptates quidem eaque accusantium eos aliquid illum!</p>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o comentario? ¡Contáctame!</p>
+
+            <form class="contacto-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <section class="social">
+            <p>Siguenos en:</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Blog Personal</p>
+    </footer>
+
+    <script src="codigo.js"></script>
+</body>
+</html>
